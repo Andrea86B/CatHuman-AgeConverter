@@ -1,0 +1,65 @@
+body {
+    background-image: url('img/gatto.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #e54e71;
+}
+
+p, input {
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem;
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #e54e71;
+    color: white;
+}
+
+.fa-cat {
+    font-size: 4rem;
+    color: #e54e71;
+}
+
+.colContainer {
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.converter {
+    padding: 30px 20px;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20px;
+    margin-top: -7%;
+}
+
+.form-control {
+    width: 35%;
+}
+
+.ageInput {
+    margin: 0 auto;
+}
+
+#submitBtn {
+    margin-top: 16px;
+}
+
+#result {
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 800;
+}

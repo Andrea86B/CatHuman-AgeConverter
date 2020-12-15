@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat-Human Age Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nerko+One&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row colContainer">
+            <div class="col-lg-4 col-md-6 col-8 converter">
+                <i class="fas fa-cat"></i>
+                <h1>Cat-Human<br>Age Converter</h1>
+                <label for="dogAgeInput">Insert the cat age and press the Submit Button</label><br>
+                <input class="form-control ageInput" min="1" type="number" name="catAge" id="catAgeInput" placeholder="cat age"/>
+                <input type="submit" class="btn btn-lg btn-outline-dark" id="submitBtn" value="SUBMIT"/>
+                <div id="result">--</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <div class="footer-copyright text-center py-3">Made with ❤ by Andrea</div>  
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
